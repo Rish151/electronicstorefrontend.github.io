@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Context } from "../../utils/context";
+import { Context } from "../../utils/Context";
 import "./Cart.css";
 import CartItems from "./CartItems/CartItems";
 import { makePaymentRequest } from "../../utils/api";
