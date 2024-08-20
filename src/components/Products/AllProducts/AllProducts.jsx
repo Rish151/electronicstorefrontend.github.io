@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import Products from '../Products'
-import { Context } from '../../../utils/context';
+import { Context } from '../../../utils/Context';
 import { FetchDataFromApi } from '../../../utils/api';
 
 const AllProducts = () => {
