@@ -4,7 +4,7 @@ import Category from "./Category/Category";
 import Products from "../Products/Products";
 import Offer from "./Offer/Offer";
 import { FetchDataFromApi } from "../../utils/api";
-import { Context } from "../../utils/context";
+import { Context } from "../../utils/Context";
 
 const Home = () => {
   const { category, setCategory, products, setProducts } = useContext(Context);
