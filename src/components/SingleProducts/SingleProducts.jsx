@@ -5,7 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import useFetch from "../../hooks/useFetch";
 import { NavLink, useParams } from "react-router-dom";
 import { useState, useContext } from "react";
-import { Context } from "../../utils/context";
+import { Context } from "../../utils/Context";
 import RelatedProducts from "./RelatedProducts/RelatedProducts";
 
 const SingleProducts = () => {
