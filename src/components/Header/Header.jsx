@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo1.png";
-import { Context } from "../../utils/context";
+import { Context } from "../../utils/Context";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Cart from "../Cart/Cart";
 import Search from "./Search/Search"; // Import Search component
