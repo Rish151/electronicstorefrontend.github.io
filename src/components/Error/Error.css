@@ -1,0 +1,123 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-color: #f8f9fa;
+  color: #343a40;
+  text-align: center;
+  padding: 20px;
+}
+
+.error-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.error-link {
+  font-size: 1.2rem;
+  color: #fff !important;
+  text-decoration: none;
+  /* border: 2px solid #007bff; */
+  background: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.error-link:hover {
+  background-color: #0b59be;
+  /* color: #fff; */
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .error-title {
+    font-size: 5rem;
+  }
+
+  .error-message {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .error-title {
+    font-size: 4rem;
+  }
+
+  .error-message {
+    font-size: 1.1rem;
+  }
+  .error-link{
+    padding: 7px 14px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .error-title {
+    font-size: 3.5rem;
+  }
+
+  .error-message {
+    font-size: 1rem;
+  }
+
+  .error-link {
+    padding: 6px 13px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .error-title {
+    font-size: 3rem;
+  }
+
+  .error-message {
+    font-size: 1rem;
+  }
+
+  .error-link {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .error-title {
+    font-size: 2.5rem;
+  }
+
+  .error-message {
+    font-size: 0.9rem;
+  }
+
+  .error-link {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .error-title {
+    font-size: 2rem;
+  }
+
+  .error-message {
+    font-size: 0.8rem;
+  }
+
+  .error-link {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+}

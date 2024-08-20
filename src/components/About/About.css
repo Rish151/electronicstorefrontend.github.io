@@ -1,0 +1,145 @@
+:root {
+  --ultradark-color: #0b59be;
+  --dark-color: #3074f0;
+  --primary-color: #f7c9d2;
+  --light-color: #f5f5f5;
+  --success-color: #7f8286;
+}
+
+.About {
+  padding: 1rem 0;
+  /* background-color: var(--light-color); */
+  margin-left: 6rem;
+}
+
+.About_text {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.About_text h1 {
+  font-size: 4rem;
+  padding: 1.3rem 0;
+  color: var(--ultradark-color);
+}
+
+.About_text p {
+  font-size: 1.55rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.About_image {
+  text-align: center;
+}
+
+.About_image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .About {
+    margin-left: 4rem;
+  }
+
+  .About_text {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .About_text h1 {
+    font-size: 3.5rem;
+    padding: 1rem 0;
+  }
+
+  .About_text p {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .About {
+    margin-left: 3rem;
+  }
+
+  .About_text {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .About_text h1 {
+    font-size: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .About_text p {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .About {
+    margin-left: 2rem;
+  }
+
+  .About_text {
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .About_text h1 {
+    font-size: 2.5rem;
+    padding: 0.6rem 0;
+  }
+
+  .About_text p {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .About {
+    margin-left: 1rem;
+  }
+
+  .About_text {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .About_text h1 {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+  }
+
+  .About_text p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .About {
+    margin-left: 0.5rem;
+  }
+
+  .About_text {
+    padding: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .About_text h1 {
+    font-size: 1.5rem;
+    padding: 0.3rem 0;
+  }
+
+  .About_text p {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+}

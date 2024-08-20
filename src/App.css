@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+:root {
+  --ultradark-color: #0b59be;
+  --dark-color: #3074f0;
+  --primarty-color: #f7c9d2;
+  --light-color: #f5f5f5;
+  --sucess-color: #7f8286;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--sucess-color);
+}
+
+.nav_ul a {
+  color: var(--sucess-color);
+  font-size: 1.3rem;
+}
+
+.nav-li {
+  padding: 0 1.3rem;
+}
+
+.nav_sec1 {
+  display: block;
+  box-shadow: 1px 6px 10px -1px rgb(216, 216, 216);
+}
+.sticky_nav1 {
+  position: sticky !important;
+  top: 0;
+  background: #ffffff;
+  z-index: 1060;
+  animation: stickyHeader 0.3s ease forwards;
+}
+
+.cart-total--items{
+  background: var(--dark-color);
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+.img-small {
+  cursor: pointer;
+}
+
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.cart1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+ 
+  .nav_ul a {
+    font-size: 1.2rem;
+  }
+  .nav-li {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cart1 {
+    flex-direction:column;
+    text-align: center;
+  }
+  .nav_ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav_ul a {
+    font-size: 1.5rem;
+  }
+  .nav-li {
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cart1 {
+    flex-direction:column;
+    text-align: center;
+  }
+  .nav_ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav_ul a {
+    font-size: 1.3rem;
+  }
+  .nav-li {
+    padding: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav_ul a {
+    font-size: 1.2rem;
+  }
+  .nav-li {
+    padding: 0.4rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav_ul a {
+    font-size: 1.1rem;
+  }
+  .nav-li {
+    padding: 0.3rem 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav_ul a {
+    font-size: 1.1rem;
+  }
+  .nav-li {
+    padding: 0.2rem 0;
+  }
+  .cart1 img {
+    width: 25px;
+    height: 25px;
+  }
+}
