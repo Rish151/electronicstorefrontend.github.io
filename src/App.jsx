@@ -14,7 +14,7 @@ import Contact from "./components/Contact/Contact";
 import AllProducts from "./components/Products/AllProducts/AllProducts";
 import SingleProducts from "./components/SingleProducts/SingleProducts";
 import Products from "./components/Products/Products";
-import AppContext from "./utils/context";
+import AppContext from "./utils/Context";
 import Category from "./components/Category/Category";
 import Error from "./components/Error/Error";
 import Success from "./components/Success/Success";
