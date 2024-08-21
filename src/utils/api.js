@@ -10,7 +10,7 @@ const params = {
 
 export const FetchDataFromApi = async (url) => {
   try {
-    const { data } = await axios.get("https://simple-one-m1rh.onrender.com" + url, params);
+    const { data } = await axios.get("https://simple-one-6r2m.onrender.com" + url, params);
     console.log(data);
     return data;
   } catch (err) {
@@ -20,7 +20,7 @@ export const FetchDataFromApi = async (url) => {
 };
 
 export const makePaymentRequest = axios.create({
-  baseURL: "https://simple-one-m1rh.onrender.com",
+  baseURL: "https://simple-one-6r2m.onrender.com",
   headers: {
     Authorization:
       "bearer " +
